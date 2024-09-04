@@ -1,0 +1,16 @@
+my_dict = {'Иванов': '01.01.2001','Петров': '02.02.2002','Сидоров': '03.03.2003'}
+print(my_dict)
+print(my_dict['Иванов'])
+print(my_dict.get('Андреев','Ожидается,ждите!'))
+my_dict.update({'Александров': '04.04.2004','Сергеев': '05.05.2005'})
+print(my_dict)
+Ivanov = my_dict.pop('Иванов')
+print(my_dict)
+print(Ivanov, '- Больше не с нами')
+print(my_dict.keys())
+my_set = {1,3,3,2,3,2,1,2,3,1,4,1,5}
+print(my_set)
+my_set.update({6,7})
+print(my_set)
+my_set.remove(1)
+print(my_set)
